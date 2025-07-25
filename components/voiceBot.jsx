@@ -265,7 +265,7 @@ export default function VoiceBot() {
             setTimeout(() => {
               setUserSpeaking(false);
               mediaRecorderRef.current?.stop();
-            }, 0.8)
+            }, 1000)
           );
         },
       });
